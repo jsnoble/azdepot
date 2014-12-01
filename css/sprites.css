@@ -1,0 +1,11 @@
+.icon-sun {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(sprites.png);
+	background-repeat: no-repeat;
+	float:left;
+}
+.icon-sun {
+	background-position: 0 0;
+}

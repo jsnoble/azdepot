@@ -1,0 +1,168 @@
+
+/*  New Addedd CSS code     End  END  *******************************************
+*/
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+@media (min-width: 1200px) {
+#portfolio-wrap .one-third {    
+    width: 24.95%!important;
+
+}
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+.purchase-now .button {
+    display: inline-block;
+    margin-top: 20px;
+    position: static;
+}
+
+.purchase-now {
+    text-align: center;
+}
+
+#portfolio-wrap .one-third {    
+    width: 24.9%!important;
+
+}
+/*.carousel_button {
+    left: -4%;
+    z-index: 999;
+}
+
+.carousel_button_right {
+    left: 95%!important;
+    z-index: 9999;
+}*/
+
+.photos ul li{
+        padding: 0 8px 15px 0!important; 
+    }
+
+.our-work-img1-hov h2{
+    margin-top: 50px; 
+}
+
+
+
+}
+
+
+	
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+@media (max-width: 979px) {
+    #portfolio-wrap .one-third {    
+        width: 50%!important;
+
+    }
+
+    .our-work-img1-hov h2{
+        margin-top: 90px; 
+    }
+
+.left-photo {
+    margin: 0 0 0 5px;
+}
+
+.carousel_button {
+    left: -4%;
+    z-index: 999;
+}
+
+.carousel_button_right {
+    left: 95%!important;
+    z-index: 9999;
+}
+    
+}
+
+
+@media (max-width: 767px) {
+    #portfolio-wrap .one-third {    
+        width: 50%!important;
+
+    }
+
+.left-photo {
+    margin: 0 0 0 23px;
+}
+
+}
+	
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+@media (max-width: 686px) { 
+
+.carousel_button_right {
+    left: 90%!important;
+    z-index: 9999;
+}
+ 
+
+
+}
+	/* RESPONSIVE CSS
+    -------------------------------------------------- */
+@media (max-width: 650px) {
+
+#portfolio-wrap .one-third {
+    width: 100% !important;
+}
+
+}
+
+@media (max-width: 620px) {
+	
+	
+}
+
+@media (max-width: 568px) {
+	
+
+}
+	
+@media (max-width: 480px) {
+
+    .ui-tabs .ui-tabs-nav li a:{
+        padding: 12px 7px!important; 
+    }
+
+    .carousel_button{
+        left: -11%; 
+    }
+
+    .carousel_button_right{
+        left: 86%!important; 
+    }
+
+
+}	
+
+
+@media (max-width: 382px) {
+    .subscribe-email input{
+        width: 281px !important; 
+    }
+        
+}
+
+@media (max-width: 322px) {
+   
+
+}
+
+ @media (min-width: 767px and max-width: 801) {
+	
+	
+	
+	
+ }

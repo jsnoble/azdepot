@@ -1,0 +1,74 @@
+<div id="custom-content" class="white-popup-block" style="max-width:600px; margin: 20px auto;">
+
+	<div class="previous_project" id="previous_project"><a class="simple-ajax-popup-align-top icon-arrow-left-5" href="projects/portfolio1.html"></a></div>
+	<div class="next_project" id="next_project"><a class="simple-ajax-popup-align-top icon-arrow-right-5" href="projects/portfolio3.html"></a></div>
+	
+    <style>
+    #custom-content img {max-width: 100%;margin-bottom: 10px;}
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="css/pop_up.css">
+
+     <!-- PARALLAX START -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    
+    <div class="post_image">
+         <img src="http://placehold.it/880x490/7A67EE" alt=""/>
+    </div>
+
+    <div class="post_left span6 first">
+        <h1>portfolio-2 Title Goes Here</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+
+        <a href="#" class="btn-contact rd-button">see-live</a>
+    </div>  
+
+    <div class="post_right span3">
+        <a href="#" class="btn-contact rd-button"><span class="icon-point-right post_right_button_icon"></span>Like</a>        
+        <a href="#" class="btn-contact rd-button"><span class="icon-export post_right_button_icon"></span>Share</a>    
+
+        <div class="clear"></div>
+
+        <div class="post_right_category">
+            <h1>Category</h1>
+
+            <ul>
+                <li><a href="#"><span class="icon-checkmark"></span>Photography</a></li>
+                <li><a href="#"><span class="icon-checkmark"></span>Images</a></li>
+            </ul>       
+        </div>
+    </div> 
+
+
+    <div class="clear"></div>
+</div>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
+	
+	    <script type="text/javascript">
+		  jQuery(document).ready(function() {
+
+				jQuery('.simple-ajax-popup-align-top').magnificPopup({
+				   preloader: true,
+				  type: 'ajax',
+				  alignTop: true,
+				  overflowY: 'scroll',
+				  mainClass: 'mfp-no-margins mfp-with-zoom mfp-fade',
+				  zoom: {
+					enabled: true,
+					duration: 300,
+					easing: 'ease-in-out', 
+				  },callbacks: {
+						beforeOpen: function() {
+						var current_url = jQuery(this).attr('href');
+						//jQuery("#next_project").;
+						//alert('Start of popup initialization  '+current_url);
+					  }
+					}
+
+				});
+	  
+		  });
+    </script>
+	

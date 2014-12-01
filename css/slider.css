@@ -1,0 +1,117 @@
+.fullwidthbanner-container{
+		width:100% !important;
+		position:relative;
+		padding:0;
+		max-height:502px !important;
+		overflow:hidden;
+	}
+/*Font Family*/
+.fullwidthbanner{ font-family: 'Raleway-bold', serif; } 
+.common_fonts{
+	font-family:  'Open Sans',sans-serif; 
+}
+
+.defult_fonts{
+	font-family: 'Raleway', serif;
+}
+/* font size */
+.size14{ font-size: 14px; }
+.size25{ font-size: 25px; }
+.size22{ font-size: 22px; }
+.size28{ font-size: 28px; }
+.size32{ font-size: 32px; }
+.size30{ font-size: 30px; }
+.size35{ font-size: 35px; }
+.size42{ font-size: 42px; }
+/* border style */ 
+.sky_border{ 
+	border: #5dbbd1 4px solid !important; 
+	 -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+	padding: 20px 15px;
+} 
+.line_border{ border-bottom: #5dbbd1 1px solid !important; }
+/* font color */
+.common_color{
+	color: #be594e; 
+}
+.defult_color{
+	color: #2f2929; 
+}
+.color_white{ color: #ffffff; }
+.color_gray{ color: #d3d3d3; }
+.color_sky{ color: #5dbbd1; }
+/* Font style */
+.uppercase{ text-transform: uppercase; }
+.shadow{ text-shadow: 0 0 8px #090909; }
+/*Font Weight:*/
+
+.bold{
+	font-weight: bold;
+}
+.normal{
+	font-weight: normal;
+}
+/* line height */
+.line_normal{
+	line-height: 38px; 
+}
+.line_defult{
+	line-height: 22px;	
+}
+.line_header{
+	line-height: 44px; 
+}
+.line_28{ line-height: 28px; }
+.line_40{ line-height: 40px; }
+.line_22{ line-height: 22px; }
+.line_45{ line-height: 45px; }
+/*text align*/
+
+.center_text{
+	text-align: center;
+} 
+/* navigation */
+.tp-leftarrow.default{ width: 29px; height: 46px; background: url(../images/arrow_left.png); } 
+.tp-rightarrow.default{ width: 29px; height: 46px; background: url(../images/arrow_right.png); } 
+.tp-leftarrow:hover, .tp-rightarrow:hover{ background-position: 0 0; }
+body{ margin: 0px; }
+/* text background */
+.bg_blue{ 
+	background: #333a3d; 
+	opacity: 0.87;
+	border: 1px solid #353334 !important;
+	padding: 14px 21px;
+}
+.bg_sky{ 
+	background: #27607b; 
+	opacity: 0.87;
+	border: 1px solid #5dbbd1 !important;
+	padding: 0px 10px;
+}
+.btn{
+	background: #f5696c;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 11px;
+}
+.btn a{ color: #fff; }
+#undefined-sticky-wrapper{ width: 100%; overflow-x: hidden; }
+
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url('../fonts/raleway-bold-webfont.eot');
+    src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff'),
+         url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

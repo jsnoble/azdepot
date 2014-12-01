@@ -1,0 +1,146 @@
+#mobnav-btn {
+    display: none;
+    font-size: 16px;    
+    background: none repeat scroll 0 0 transparent; 
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    color: #787878;
+}
+
+#mobnav-btn span{
+    padding-right: 26px; 
+}
+
+.mobnav-subarrow {
+    display: none;
+}
+@media only screen and (max-width: 980px) {
+
+.follower {
+    float: right;
+    left: 65%;
+    margin-top: 0;
+    position: absolute;
+    top: 12px;
+}
+
+.nav > li:hover{
+    border: none!important;  
+}
+
+.nav > li:hover{
+    border: none!important;
+}
+
+#mobnav-btn {
+    display: block;
+    margin: 5px 36% 5px 2px;
+    text-align: right;
+}
+.mobnav-subarrow {
+    color: #636363;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    opacity: 0.8;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 12px;
+    width: 30px;
+        -webkit-transition: all .1s ease-in-out;
+        -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+        -o-transition: all .1s ease-in-out;
+        transition: all .1s ease-in-out;
+    }
+    .sf-menu {
+        width: 100%!important;
+        display: none;
+    }
+    .sf-menu.xactive {
+        display: block!important;
+    }
+    .sf-menu li {        
+        display: block!important;
+        width: 100%!important;
+        border: none !important;
+        text-align: center;
+        margin-left: 0px; 
+    }
+    .sf-menu li a {
+        float: none!important;
+    }
+    .sf-menu ul {
+        position:static!important;
+        display: none!important;
+        width: 100% 
+    }
+    .xpopdrop ul {
+        display: block!important;
+    }
+
+#main-menu {
+    float: right;
+    margin-left: 0;
+    width: 50%; 
+}
+
+.logo {
+    display: inline;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.logo a {
+    display: inline;
+    float: none;
+    margin: auto;
+}
+
+nav .container .four.columns {
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding-top: 15px; 
+}
+
+#main-menu ul{
+    background: no-repeat; 
+}
+#main-menu ul li a {
+    font-weight: 500;
+    padding: 14px 13px; 
+}
+
+.search {
+    left: 87%;
+    margin-top: -109px;
+    position: absolute;
+}
+
+.navbar-wrapper{
+    padding-bottom: 30px; 
+}
+
+}
+
+@media (max-width: 480px) {
+
+#mobnav-btn {
+    margin: 5px 6px 5px 2px;
+}
+
+
+#mobnav-btn span {
+    padding-right: 10px;
+}
+
+nav .container .four.columns {
+    width: 50%;
+}
+
+
+}   

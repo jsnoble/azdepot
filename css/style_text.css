@@ -1,0 +1,243 @@
+.sp-slideshow_1 {
+    margin-top: 20px !important;
+    position: relative;
+    height: 297px; 
+}
+
+.sp-content_1 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.testimonial_arrow {
+    background: url("../images/testimonial_arrow.png") no-repeat scroll 66% 0 transparent;
+    display: block;
+    height: 23px;
+    margin-top: -2px; 
+
+}
+
+.sp-parallax-bg_1 {
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.sp-slideshow_1 input {
+    position: absolute;
+	bottom: 15px;
+	left: 50%;
+	width: 9px;
+	height: 9px;
+	z-index: 1001;
+	cursor: pointer;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.sp-slideshow_1 input + label {
+    position: absolute;
+    bottom: 25px;
+	left: 8%;
+    width: 8px;
+	height: 8px;
+	display: block;
+	z-index: 1000;
+	background:url(../images/bullet1.png) no-repeat;
+}
+.sp-slideshow_1 input:checked + label {
+	background:url(../images/bullet1_hover.png) no-repeat; width:12px; height:12px;
+}
+
+.sp-selector-1_1, .button-label-1_1 {
+    margin-left: -36px;
+}
+
+.sp-selector-2_1, .button-label-2_1 {
+    margin-left: -18px;
+}
+
+.sp-selector-4_1, .button-label-4_1 {
+    margin-left: 18px;
+}
+
+.sp-selector-5_1, .button-label-5_1 {
+    margin-left: 36px;
+}
+
+.sp-arrow_1 {
+    position: absolute;
+	top: 50%;
+	width: 28px;
+	height: 38px;
+	margin-top: -19px;
+	display: none;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 1000;
+	background: transparent url(../images/arrows.png) no-repeat;
+	-webkit-transition: opacity linear 0.3s;
+    -moz-transition: opacity linear 0.3s;
+    -o-transition: opacity linear 0.3s;
+    -ms-transition: opacity linear 0.3s;
+    transition: opacity linear 0.3s;
+}
+.sp-arrow_1:hover{
+	opacity: 1;
+}
+.sp-arrow_1:active{
+	margin-top: -18px;
+}
+.sp-selector-1_1:checked ~ .sp-arrow_1.sp-a2_1,
+.sp-selector-2_1:checked ~ .sp-arrow_1.sp-a3_1,
+.sp-selector-3_1:checked ~ .sp-arrow_1.sp-a4_1,
+.sp-selector-4_1:checked ~ .sp-arrow_1.sp-a5_1 {
+    right: 15px;
+	display: block;
+	background-position: top right;
+}
+.sp-selector-2_1:checked ~ .sp-arrow_1.sp-a1_1,
+.sp-selector-3_1:checked ~ .sp-arrow_1.sp-a2_1,
+.sp-selector-4_1:checked ~ .sp-arrow_1.sp-a3_1,
+.sp-selector-5_1:checked ~ .sp-arrow_1.sp-a4_1 {
+    left: 15px;
+	display: block;
+	background-position: top left;
+}
+
+.sp-slideshow_1 input:checked ~ .sp-content_1 {
+    -webkit-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -moz-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -o-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -ms-transition: background-position linear 0.6s, background-color linear 0.8s;
+    transition: background-position linear 0.6s, background-color linear 0.8s;
+}
+
+.sp-slideshow_1 input:checked ~ .sp-content_1 .sp-parallax-bg_1 {
+    -webkit-transition: background-position linear 0.7s;
+    -moz-transition: background-position linear 0.7s;
+    -o-transition: background-position linear 0.7s;
+    -ms-transition: background-position linear 0.7s;
+    transition: background-position linear 0.7s;
+}
+
+
+input.sp-selector-1_1:checked ~ .sp-content_1 {
+    background-position: 0 0;
+}
+input.sp-selector-2_1:checked ~ .sp-content_1 {
+    background-position: -100px 0;
+}
+input.sp-selector-3_1:checked ~ .sp-content_1 {
+    background-position: -200px 0;
+}
+input.sp-selector-4_1:checked ~ .sp-content_1 {
+    background-position: -300px 0;
+}
+input.sp-selector-5_1:checked ~ .sp-content_1 {
+    background-position: -400px 0;
+}
+input.sp-selector-1_1:checked ~ .sp-content_1 .sp-parallax-bg_1 {
+    background-position: 0 0;
+}
+input.sp-selector-2_1:checked ~ .sp-content_1 .sp-parallax-bg_1 {
+    background-position: -200px 0;
+}
+input.sp-selector-3_1:checked ~ .sp-content_1 .sp-parallax-bg_1 {
+    background-position: -400px 0;
+}
+input.sp-selector-4_1:checked ~ .sp-content_1 .sp-parallax-bg_1 {
+    background-position: -600px 0;
+}
+input.sp-selector-5_1:checked ~ .sp-content_1 .sp-parallax-bg_1 {
+    background-position: -800px 0;
+}
+.sp-slider_1 {
+    position: relative;
+	left: 0;
+    width: 500%;
+	height: 100%;
+	list-style: none;
+    margin: 0;
+	padding: 0;
+    -webkit-transition: left ease-in 0.8s;
+    -moz-transition: left ease-in 0.8s;
+    -o-transition: left ease-in 0.8s;
+    -ms-transition: left ease-in 0.8s;
+    transition: left ease-in 0.8s; 
+}
+
+.sp-slider_1 > li {
+	color: #fff;
+	width: 20%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 0 0px;
+    float: left; 
+    -webkit-transition: opacity ease-in 0.4s 0.8s;
+    -moz-transition: opacity ease-in 0.4s 0.8s;
+    -o-transition: opacity ease-in 0.4s 0.8s;
+    -ms-transition: opacity ease-in 0.4s 0.8s;
+    transition: opacity ease-in 0.4s 0.8s; 
+}
+.sp-slider_1 > li img{}
+input.sp-selector-1_1:checked ~ .sp-content_1 .sp-slider_1 {
+    left: 0;
+}
+
+input.sp-selector-2_1:checked ~ .sp-content_1 .sp-slider_1 {
+    left: -100%;
+}
+
+input.sp-selector-3_1:checked ~ .sp-content_1 .sp-slider_1 {
+    left: -200%;
+}
+
+input.sp-selector-4_1:checked ~ .sp-content_1 .sp-slider_1 {
+    left: -300%;
+}
+
+input.sp-selector-5_1:checked ~ .sp-content_1 .sp-slider_1 {
+    left: -400%;
+}
+
+input.sp-selector-1_1:checked ~ .sp-content_1 .sp-slider_1 > li:first-child,
+input.sp-selector-2_1:checked ~ .sp-content_1 .sp-slider_1 > li:nth-child(2),
+input.sp-selector-3_1:checked ~ .sp-content_1 .sp-slider_1 > li:nth-child(3),
+input.sp-selector-4_1:checked ~ .sp-content_1 .sp-slider_1 > li:nth-child(4),
+input.sp-selector-5_1:checked ~ .sp-content_1 .sp-slider_1 > li:nth-child(5){
+	opacity: 1;
+}
+@media screen and (max-width: 840px){
+	.sp-slideshow_1 { height: 345px; }
+}
+@media screen and (max-width: 680px){
+	.sp-slideshow_1 { height: 285px; }
+}
+@media screen and (max-width: 560px){
+	.sp-slideshow_1 { height: 235px; }
+}
+@media screen and (max-width: 320px){
+	.sp-slideshow_1 { height: 158px; }
+}
+
+
+
+
