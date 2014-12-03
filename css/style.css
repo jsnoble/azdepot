@@ -2608,46 +2608,7 @@ a.button, .button {
     color: rgba(59, 59, 59, 0.85)!important;
 }
 
-/********* Skill Set *************/
-.skillset{
-	margin-bottom:25px;
-}
 
-.skillset .skill_set_item{
-	margin-bottom:20px;
-}
-
-.skillset .skill_set_item h3{
-    font-size: 12px;
-    line-height: 7px;
-}
-
-.skillset .skill_set_item .progress-bar{
-	width:100%;
-	height:5px;
-	border-radius: 8px 8px 8px 8px;
-	-webkit-border-radius: 8px 8px 8px 8px;
-}
-
-.skillset .skill_set_item .progress-bar .progress-bar-content{
-    border-radius: 8px 8px 8px 8px;
-	-webkit-border-radius: 8px 8px 8px 8px;
-    height: 5px;
-    position: relative;
-}
-
-.skillset .skill_set_item .progress-bar .progress-bar-heading{
-    background: none repeat scroll 0 0 #000000;
-    border-radius: 4px 4px 4px 4px;
-    color: #FFFFFF;
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: 9px;
-    margin-top: -33px;
-    padding: 2px;
-    text-align: center;
-    width: 36px;
-}
 
 .small_arrow_box { position: relative; } 
 
@@ -2671,40 +2632,3 @@ a.button, .button {
 #typed-cursor{
 	display:none;
 }
-/****Pricing box****/
-.pricing_wrap{ padding-top: 30px; }
-.pricing_wrap .pricing_box:first-child{ margin: 0px 0px 60px; }
-.pricing_box {
-background: none repeat scroll 0 0 #FFFFFF;
-border: 1px solid #E1E1E1;
-border-radius: 3px;
-float: left;
-font-weight: bold;
-margin-bottom: 60px;
-position: relative;
-text-align: center;
-width: 100%;
-margin-left: 8px !important;
-}
-.pricing_box .rd-button{ margin: 20px auto 22px; }
-.pricing_box li:first-child{
-font-size: 18px;
-color: #fff;
-background: #353334;
-padding: 15px 0 4px;
-border-radius: 3px 3px 0 0;
-} 
-.price_text { padding-top: 24px; }
-.price_text p{ color: #353334; }
-.pricing_box li{ font-size: 14px; color: #292929; family: "Lato"; line-height: 38px; }
-.pricing_box li:first-child h2{ font-weight: 600; }
-.mid { margin-top: -11px; }
-.pricing_box li.rate {
-background: none repeat scroll 0 0 #5dbbd1;
-padding: 30px 0;
-position: relative;
-color: #fff; margin-bottom: 9px; }
-.pricing_box li.rate span.big{ font-size: 48px; font-weight: bold;   }
-.pricing_box li.rate span{ margin-top: 25px; font-size: 20px; }
-.pricing_box.mid li.rate{ background:  #353334; }
-.pricing_box.mid li:first-child{ background: #5dbbd1; }
