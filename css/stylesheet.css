@@ -53,7 +53,7 @@ body{ margin:0px; padding:0px;}
 .tab-left-inner{ float:left;}
 .inner-tab1 p {
     float: right;
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: 0;
     
 }
@@ -104,20 +104,20 @@ body{ margin:0px; padding:0px;}
     padding: 0 19px
 }
 .inner-box1-bot h2{ 
-    font-size:15px; 
+    font-size:19px;
     text-transform:none; 
     padding:13px 0px 5px 0px;
 }
 
 .inner-box1-bot h3 {
     color: #8f8f8f;
-    font-size: 11px;
+    font-size: 15px;
     padding-bottom: 8px;
     text-transform: none;
 }
 
 .inner-box1-bot p{ 
-    font-size:12px; 
+    font-size:17px;
     text-transform:none; 
     padding:0px 0px 0px 0px;
     line-height: 18px;
@@ -162,8 +162,8 @@ body{ margin:0px; padding:0px;}
 }
 
 .left-detail{ float:left; padding:0px 0px 0px 10px;}
-.left-detail h2{font-weight:bold; text-transform:none; font-size:13px; margin-bottom: 7px; }
-.left-detail h3{ font-weight:bold; text-transform:none; font-size:12px;}
+.left-detail h2{font-weight:bold; text-transform:none; font-size:18px; margin-bottom: 7px; }
+.left-detail h3{ font-weight:bold; text-transform:none; font-size:15px;}
 .our-clients{}
 .our-clients h1{ text-align:center; font-size:15px;}
 .our-clients ul{ margin:25px 0px 0px 0px; padding:0px 0px 0px 0px; clear:both; overflow:hidden;}

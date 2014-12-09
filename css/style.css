@@ -36,6 +36,7 @@ table {
 /*--------------------------------------------------------
 BEGIN THEME STYLESHEET
 --------------------------------------------------------*/
+
 #hideAll{
    position: fixed;
    left: 0px; 
@@ -82,6 +83,14 @@ h1,h2,h3,h4,h5,h6, .welcome p, .home-images1 p, .heding_font, .meet-title, .titl
 .title-conatct, .our-clients h1, .title-inner-bot, .meet-title, .det-bot-right-ab h1, .welcome p, .bold{
 	font-weight: bold;
 }
+.nav .container .center {
+	margin: auto;
+}
+.centering {
+	float:none;
+	margin:0 auto;
+}
+
 
 .embed-container {
 	position: relative;
@@ -221,7 +230,7 @@ body #load {
 }
 p.lead {
 
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 1.2;
 	padding: 0;
 	margin-bottom: 20px;
@@ -390,7 +399,7 @@ nav .container .twelve.columns {
 }
 
 .main-menu a {
-	font-size: 11px;
+	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -403,7 +412,7 @@ nav.light .main-menu a:hover, nav.dark .main-menu a:hover {
 
 .main-menu a i {
 	margin-right: 3px;
-	font-size: 22px;
+	font-size: 28px;
 }
 /*== ICONIC NAVIGATION ==*/
 .main-menu.iconic li {
@@ -413,7 +422,7 @@ nav.light .main-menu a:hover, nav.dark .main-menu a:hover {
 	display: inline-block;
 }
 .main-menu.iconic a i {
-	font-size: 25px;
+	font-size: 28px;
 	display: block;
 	text-align: center;
 	margin: 8px auto 4px;
@@ -638,7 +647,7 @@ p.quote {
 	margin: 0 5%;
 }
 .quote i {
-	font-size: 25px;
+	font-size: 28px;
 	display: inline-table;
 	vertical-align: top;
 	margin: 0 5px;
@@ -649,7 +658,7 @@ p.quote {
 .quote-author {
 	height: 24px;
 	width: auto;
-	font-size: 17px;
+	font-size: 22px;
 	font-weight: 600;
 	color: #ffffff;
 	position: relative;
@@ -740,7 +749,7 @@ p.quote {
 	padding: 10px 0;
 }
 .testimonial-icon i {
-	font-size: 22px;
+	font-size: 26px;
 	width: 23px;
 	color: #ffffff;
 	display: inline-block;
@@ -750,8 +759,7 @@ p.quote {
 	box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
 }
 .testimonial-slide .client-testimonial {
-	font-size: 13px;
-	font-size: 16px;
+	font-size: 20px;
 	color: white;
 	line-height: 1.67;
 	margin: 5px auto 10px;
@@ -761,7 +769,7 @@ p.quote {
 }
 .client-info {
 	color: rgb(255, 255, 255);
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 20px;
 	font-style: italic;
@@ -967,7 +975,7 @@ p.quote {
     color: #FFFFFF; 	
 }
 .follower span.search:before {
-    font-size: 15px;
+    font-size: 20px;
     left: 6px;
     line-height: 5px;
     padding: 0;
@@ -996,7 +1004,7 @@ p.quote {
      -moz-border-radius: 3px 3px 3px 3px;
           border-radius: 3px 3px 3px 3px;
     color: #57616A;
-    font-size: 11px;
+    font-size: 16px;
     padding: 7px 9px;
     position: relative;
 }
@@ -1159,7 +1167,7 @@ p.quote {
 #filters ul li a {
 }
 #filters ul li a h3 {
-	font-size: 18px;
+	font-size: 22px;
 	padding: 2px 6px 0px;
 	border: 2px solid;
 }
@@ -1243,7 +1251,7 @@ p.quote {
 	background: #FFD600;
 }
 #closeProject a i {
-	font-size: 14px;
+	font-size: 22px;
 	color: #ffffff;
 	line-height: 40px;
 	display: inline-table;
@@ -1421,7 +1429,7 @@ p.quote {
 }
 .portfolio-overlay .thumb-info p {
 	top: 50%;
-	font-size: 13px;
+	font-size: 20px;
 }
 .portfolio-overlay .thumb-info h3 {
 	color: #ffffff;
@@ -1503,7 +1511,7 @@ p.quote {
 	display: inline-table;
 	margin-right: 4px;
 	color: #868991;
-	font-size: 16px;
+	font-size: 20px;
 	vertical-align: middle;
 }
 .post-tags ul {
@@ -1514,7 +1522,7 @@ p.quote {
 	display: inline-block;
 	position: relative;
 	text-transform: uppercase;
-	font-size: 11px;
+	font-size: 18px;
 }
 .post-tags li:after {
 	content: ' . ';
@@ -1530,12 +1538,12 @@ p.quote {
 	color: #FFD600;
 }
 .post-meta {
-	font-size: 11px;
+	font-size: 20px;
 	margin-bottom: 20px;
 	padding: 5px 0;
 	border-top: 1px solid #f0f2f5;
 	border-bottom: 1px solid #f0f2f5;
-	font-size: 11px;
+
 }
 .post-meta span {
 	text-align: right;
@@ -1554,7 +1562,7 @@ p.quote {
 	margin-bottom: 10px;
 }
 .tags-list li {
-	font-size: 11px;
+	font-size: 20px;
 	margin-top: 5px;
 	display: inline-block;
 	padding: 3px 9px;
@@ -1597,7 +1605,7 @@ p.quote {
 	margin: 0px 2px 0px 0;
 }
 .pages li a {
-	font-size: 13px;
+	font-size: 22px;
 	display: block;
 	padding: 5px;
 	color: #151515;
@@ -1616,7 +1624,7 @@ p.quote {
 	display: block;
 	margin: 2px 0;
 	background-color: #151515;
-	font-size: 14px;
+	font-size: 22px;
 	color: #ffffff;
 	text-transform: uppercase;
 	-webkit-border-radius: 2px;
@@ -1706,7 +1714,7 @@ p.quote {
 #comment-input input {
 	border: 1px solid #e8e8e8;
 	width: 28%;
-	font-size: 13px;
+	font-size: 20px;
 	color: #747474;
 	padding: 8px 2%;
 	float: left;
@@ -1717,7 +1725,7 @@ p.quote {
 	border: 1px solid #e8e8e8;
 	width: 96%;
 	height: 150px;
-	font-size: 13px;
+	font-size: 18px;
 	color: #747474;
 	padding: 8px 11px;
 	border-radius: 2px;
@@ -2173,7 +2181,7 @@ a#button-newsletter {
     border-radius: 52% 52% 52% 52%;
     color: #AEAEAE;
     display: inline;
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px;
     text-align: center;
     
@@ -2190,7 +2198,7 @@ a#button-newsletter {
     border-radius: 54% 54% 54% 54%;
     color: #fbfbfb;
     display: inline;
-    font-size: 20px;
+    font-size: 24px;
     padding: 9px;
     text-align: center;
     -moz-transition: all .5s ease-out; -webkit-transition: all .5s ease-out; -o-transition: all .5s ease-out;
@@ -2224,7 +2232,7 @@ a#button-newsletter {
 .img-share a {
 	color: #838383;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 20px;
 	margin-top: 13px;
 	margin-left: 26px;
 }
@@ -2323,7 +2331,7 @@ a.button, .button {
     border-width: 1px;
     color: #2f2f2f !important;
     display: inline-block;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
     padding: 8px 15px;
@@ -2369,7 +2377,7 @@ a.button, .button {
 
 .multiple_text p {
     color: #9C9C9C;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .testimonial_section{
@@ -2406,7 +2414,7 @@ a.button, .button {
     padding: 6px 0 0 15px;
     text-align: center;
     width: 37px;
-    font-size: 14px; 
+    font-size: 20px;
     margin-top: -1px; 
 }
 
@@ -2414,7 +2422,7 @@ a.button, .button {
 
 .quote_icon {
     color: #b8b8b8;
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .testimonial_section_content_style {
@@ -2550,11 +2558,11 @@ a.button, .button {
 
 
 .ui-accordion p{
-	font-size: 13px; 
+	font-size: 22px;
 }
 
 .accordion h3 {
-	font-size: 14px; 
+	font-size: 22px;
 }
 
 .our_skill_content span {
@@ -2569,7 +2577,7 @@ a.button, .button {
 }
 
 .content_text p{
-	font-size: 13px; 
+	font-size: 20px;
 }
 
 .title_contact {
